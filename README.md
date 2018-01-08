@@ -7,6 +7,8 @@ https://github.com/kundajelab/atac_dnase_pipelines
 
 ### This pipeline is compatable with UM Pegasus using project nimerlab
 
+If conda and chipseq-pipeline are already installed, skip to 3.
+
 1. If conda is not installed: 
 	- wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh 
 	- bash Miniconda3-latest-Linux-x86_64.sh
