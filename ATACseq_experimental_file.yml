@@ -1,0 +1,15 @@
+title: name #Experiment name, ie CD34-DPF2-PHD-hg38
+rundate: '2017-09-05' #Run Date
+genome: hg38 
+system: local # options 'local' or 'slurm'.  slurm for parallel with lsf modified clusterGeneric 
+file_names: 
+  fastq1: fastq1 #Fastq1 name here (before '_R1.fastq.gz' or '_R2.fastq.gz')
+  fastq2: fastq2 #Fastq2 name here (before '_R1.fastq.gz' or '_R2.fastq.gz')
+  fastq3: fastq3 #Fastq2 name here (before '_R1.fastq.gz' or '_R2.fastq.gz')
+directories: 
+  fastq_directory: /nethome/dlk41/DANIEL/PRMT5/ATACseq/2017-08-16/Fastq
+  output_directory: /projects/ctsi/nimerlab/DANIEL/PRMT5/ATACseq/2017-09-05/Processed #Enter output directory here
+  scratch_directory: /scratch/projects/nimerlab/DANIEL/staging/ATACseq #Scratch Directory
+replicate_number: '3' #'1','2' or '3'
+subsample: no # yes will subsample all final tags of the atacseq the subsample number below
+subsample_number: "" # Enter subsample number 1000000 = 1 Million
